@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Am fost aici si am furat cod
 nslookup $1 $3 | while read linie; do
 	if echo "$linie" | grep -q "Name:*"; then
 		read address_line
